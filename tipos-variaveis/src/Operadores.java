@@ -1,29 +1,27 @@
 public class Operadores {
     public static void main(String[] args) {
 
-        //classe Operadores.java
-        double soma = 10.5 + 15.7;
-        int subtração = 113 - 25;
-        int multiplicacao = 20 * 7;
-        int divisao = 15 / 3;
-        int modulo = 18 % 3;
-        double resultado = (10 * 7) + (20/4);
+    //classe Operadores.java
+    int numero = 5;
+            
+    //Imprimindo o numero negativo
+    System.out.println(- numero);
 
-        String concatenacao = "?";
+    //incrementando numero em mais 1 numero, imprime 6
+    numero ++;
+    System.out.println(numero);
 
-        concatenacao = 1+1+1+"1";
-        System.out.println(concatenacao);
+    //incrementando numero em mais 1 numero, imprime 7
+    System.out.println(numero ++);// ops algo de errado não está certo
 
-        concatenacao = 1+"1"+1+1;
-        System.out.println(concatenacao);
+    System.out.println(numero);// agora sim, numero virou 7
 
-        concatenacao = 1+"1"+1+"1";
-        System.out.println(concatenacao);
+    //ordem de precedencia conta aqui
+    System.out.println(++ numero);
 
-        concatenacao = "1"+1+1+1;
-        System.out.println(concatenacao);
+    boolean verdadeiro = true;
 
-        concatenacao = "1"+(1+1+1);
-        System.out.println(concatenacao);
+    System.out.println("Inverteu " + !verdadeiro);
+    
     }
 }
